@@ -1,0 +1,170 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: rgb(217, 200, 219);
+    max-width: 600px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 4px 8px;
+}
+
+form h1{
+    color: black;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.caption{
+    font-size: 16px;
+    color: rgb(99, 96, 96);
+    margin-bottom: 30px;
+}
+
+.input-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-control input{
+    margin-top: 5px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    outline: none;
+    width: 100%;
+}
+.input-control input:focus {
+    border-bottom: 1px solid rgb(34, 32, 32);
+}
+
+.input-control select{
+    width: 100%;
+    border: none;
+    border: 1px solid #ccc;
+    padding: 5px;
+    outline: none;
+}
+
+.input-control label{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.input-control div{
+    display: block;
+    padding: 5px;
+    justify-content: center;
+}
+/* .radio-groups{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+} */
+
+.radio-groups input{
+    width: 25px;
+}
+.radio-groups label{
+    margin: 0 5px;
+    font-size: 16px;
+    margin-bottom: 12px;
+    
+}
+
+.radio-groups .radio-btns{
+    font-weight: normal;
+    margin-right: 85px;
+    margin-bottom: 0px;
+}
+.radio-groups input{
+    margin: 0;
+}
+
+.checkbox-control{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5pxpx;
+    
+}
+/* .checkbox-control label{
+    margin-bottom: 4px;
+    font-size: 16px;
+    padding: 11px;
+} */
+.checkbox-control .checkbox-label{
+    font-weight: normal;
+    font-size: 14px;
+}
+.checkbox-control input{
+    width: 30px;
+}
+
+.dropdown-section label{
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+
+form button{
+    width: 100%;
+    background-color: rgb(198, 211, 235);
+    color: #020202;
+    padding: 15px 0;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+form button:hover{
+    background-color: rgb(138, 138, 238);
+}
+
+.danger{
+    color: rgb(112, 11, 11);
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.auto-container{
+    width: 100%;
+    max-width: 600px;
+    margin-top: 30px;
+    height: 300px;
+    align-items: center;
+}
+
+.auto-container input{
+    padding:5px;
+    width:100%;
+    margin-top: 30px;
+}
+.auto-container h1{
+    font-size: 20px;
+    color: #020202;
+    
+}
+.search-btn{
+   padding:5px;
+   width:100px;
+  margin-top: 5px;
+  background-color: rgb(21, 6, 73);
+  color: antiquewhite;
+
+}
+
+.auto-container ul{
+margin-top: 25px;
+color: black;
+}
+.auto-container p{
+    margin-top: 25px;
+    display: block;
+    color: black;
+    font-size: 16px;
+}
